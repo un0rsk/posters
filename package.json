@@ -5,11 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "http-server -p 9000 -c-1"
+    "start": "http-server -p 9000 -c-1",
+    "deploy": "gh-pages -d ./"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
