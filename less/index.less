@@ -1,15 +1,13 @@
-@link-color:        #428bca; // sea blue
-@link-color-hover:  darken(@link-color, 10%);
+@import './swissposter.less';
 
-// Usage
-a,
-.link {
-  color: @link-color;
+body {
+  margin: 0;
+  height: 100%;
 }
-a:hover {
-  color: @link-color-hover;
-}
-.widget {
-  color: #fff;
-  background: @link-color;
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
