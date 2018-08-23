@@ -4,9 +4,6 @@ class App extends React.Component {
       <main role="main">
         <Triangles />
         <RedPoster />
-        <Poster>
-
-        </Poster>
       </main>
     )
   }

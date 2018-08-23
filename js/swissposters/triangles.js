@@ -11,7 +11,7 @@ class Triangles extends React.Component {
               <div>Я</div>
               <div>Люблю</div>
               <div>дизайн</div>
-              <div>и вино</div>
+              <div>и море</div>
             </div>
           </div>
           <div className='BlueTriangle'></div>
