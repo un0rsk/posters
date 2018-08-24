@@ -1,0 +1,54 @@
+.Abc {
+  background-color: #DDE0D3;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 30vh 67vh;
+  overflow: hidden;
+  .Header {
+    display: grid;
+    grid-template-columns: 35% 20% 35%;
+    grid-column-gap: 10%;
+    align-self: center;
+    padding-left: 5vh;
+    padding-right: 8vh;
+    font-size: 1.8vh;
+    align-self: start;
+    padding-top: 5vh;
+    font-weight: 600;
+  }
+  .Header > div {
+    align-self: end;
+  }
+  .Header > :last-child {
+    margin-left: -5vh;
+  }
+  .Header > :first-child {
+    font-weight: 600;
+    text-align: right;
+    font-size: 3vh;
+    align-self: center;
+    padding-left: 2vh;
+  }
+  .AbcLetters {
+    display: grid;
+    overflow: hidden;
+    margin-left: -7vh;
+    align-self: center;
+    font-size: 106vh;
+    font-weight: 600;
+    grid-template-columns: 17% 20% 33%;
+    div {
+      display: inline;
+      opacity: 0.9;
+    }
+    .red {
+      color: red;
+    }
+    .blue {
+      color: #459BC4;
+    }
+    .grey {
+      color: #7A686F;
+    }
+  }
+}
